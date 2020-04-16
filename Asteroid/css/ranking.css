@@ -1,0 +1,89 @@
+#home6{
+  
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255,.2);
+  background-size: 100% 100%;
+  border:#2e2e33 solid 0.5px;
+}
+
+h5{
+
+  text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: lighter;
+margin-top: 20px;
+font-size: 17px;
+color: white;
+}
+
+#home6 .tasti{
+
+
+margin-top: 13px;
+
+}
+
+#classificapersonale{
+
+width: 300px;
+height: 20px;
+color: white;
+margin: auto;
+border:#ffff solid 0.5px;
+margin-top: 10px;
+
+}
+
+
+#classificagenerale{
+
+width: 300px;
+height: 20px;
+color: white;
+margin: auto;
+border:#ffff solid 0.5px;
+margin-top: 10px;
+
+}
+
+@media only screen and (max-width: 575px ){
+
+
+.tasti{
+     
+
+   font-size: 8px;
+ 
+   
+}
+
+#classificapersonale{
+
+width: 120px;
+
+
+}
+
+
+#classificagenerale{
+
+width: 120px;
+
+
+}
+
+h5{
+
+
+margin-top: 10px;
+font-size: 13px;
+
+}
+
+
+}

@@ -1,0 +1,93 @@
+*{
+ 
+             margin: 0;
+             padding: 0;           
+
+	} 
+
+
+html {
+  height: 100%;
+}
+     
+		
+		body{
+         
+       background-image: url('../img_game/background2.jpg');
+	     width: 100%;
+       height: 100%;
+	     background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+
+
+		}
+
+    .list{
+
+          list-style: none;
+          position: absolute;
+          left: 22%;
+          top: 30%;
+          color: white;
+
+         }
+
+
+         .list li{
+
+          display: inline-block;
+           margin-right: 54px;
+           font-size: 40px;
+           font-family: Arial;
+           font-weight: lighter;
+           
+         }
+
+ @media only screen and (max-width: 575px ){
+
+
+   .list li{
+
+            left: 5px;
+           font-size: 18px;
+           margin-right: 18px;
+           
+          }
+ 
+
+
+ } 
+
+ @media only screen and (min-width: 675px) and (max-width: 875px) {
+
+
+  
+   .list li{
+
+            left: 45px;
+           font-size: 28px;
+           margin-right: 33px;
+           
+         }
+ 
+
+
+ }       
+
+
+ @media only screen and (min-width: 1600px) {
+
+
+  
+   .list li{
+
+            
+           font-size: 80px;
+           margin-right: 95px;
+           
+         }
+ 
+
+
+ }    

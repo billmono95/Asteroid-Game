@@ -1,0 +1,117 @@
+
+#home5{
+  
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255,.2);
+  background-size: 100% 100%;
+  border:#2e2e33 solid 0.5px;
+}
+
+
+#home5 h1{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: lighter;
+margin-top: 2%;
+font-size: 23px;
+color: white;
+}
+
+
+#home5 input{
+
+margin-top: 20px;
+
+}
+
+#home5 p{
+
+margin-top: 10px;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-size: 18px;
+color: white;
+
+}
+
+#home5 .tasti{
+
+
+margin-top: 5px;
+
+}
+
+@media only screen and (max-width: 575px ){
+
+.menulogin {
+	
+	
+	height: 40px;
+	margin: 0px;
+	width: 100%;
+
+}
+
+.menulogin ul li{
+  padding-top: 10px;
+  
+  margin-left: 20px;
+  
+}
+
+
+.menulogin ul li a {
+	
+    color: white;
+	
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    
+}
+
+
+
+#home5 p{
+
+margin-top: 7px;
+
+
+}
+
+#home5 .tasti{
+
+
+margin-top: 2.5px;
+
+}
+
+#home5 input{
+
+margin-top: 13px;
+
+}
+
+#home5 h1{
+
+font-size: 13px;
+
+}
+
+#home5 p{
+
+font-size: 9px;
+
+}
+
+
+
+}

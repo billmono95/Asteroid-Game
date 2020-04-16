@@ -1,0 +1,63 @@
+#home3{
+  
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 40px;
+  background: rgba(255, 255, 255,.2);
+  background-size: 100% 100%;
+  border:#2e2e33 solid 0.5px;
+}
+
+#home3 p{
+
+
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+text-decoration-line: none;
+padding-top: 50px;
+cursor: pointer;
+}
+
+
+
+#home3 .tasti{
+
+background-color: black;
+margin-left: 12%;
+margin-top:   10%;
+color: white; 
+}
+
+
+#home3 .tasti:hover{
+
+background-color: white;
+color: black;
+
+}
+
+
+@media only screen and (max-width: 575px ){
+
+#home3 p{
+
+
+font-size: 11px;
+
+}
+
+
+#home3 .tasti{
+     
+
+   font-size: 8px;
+ 
+   
+}
+
+
+
+}

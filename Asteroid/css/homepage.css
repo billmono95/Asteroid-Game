@@ -1,0 +1,172 @@
+*{
+ 
+             margin: 0;
+             padding: 0;           
+
+	} 
+
+
+html {
+  height: 100%;
+}
+     
+		
+		body{
+         
+         
+	     width: 100%;
+       height: 100%;
+       background-image: url('../img_game/space4.jpg');
+	     background-repeat: no-repeat;
+       background-size: cover;
+       position: absolute;
+
+		   }
+
+
+    header {
+     margin: 0;
+     top: 0px;
+     height: 140px;
+     width: 100%;
+     background:black;
+     
+     }
+
+
+
+
+.titolo{
+      z-index: 999;
+      top: 0px;
+      width: 100%;
+   
+   }
+
+.titolo h1{
+  
+  letter-spacing: 9px;
+  margin-left: 80px;
+  margin-top: 40px;
+  text-decoration-line: none;
+  font-family: Roboto;
+  font-size: 30px;
+  color: white;
+  float: left;
+  text-transform: uppercase;
+}
+
+
+footer {
+    
+
+  text-align: center;
+  height: 150px;
+  background-color: black;
+  
+  margin-bottom: 0px;
+}
+
+footer p {
+  line-height: 45px;
+  margin-right: 25px;
+  margin-top: 25px;
+  color: white;
+  float: right;
+  font-size: 14px;
+}
+
+footer a {
+  line-height: 45px;
+  margin: 0px;
+  color: white;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+     
+.content {
+  
+  margin-left: 0px;
+  top:0px;
+  height: 100%;  
+  background-image: url('../img_game/space4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  
+}
+
+
+.tasti{
+     
+   color: #fff;
+   background-color: black;
+   width: 150px;
+   height: 50px;
+   font-family: Arial;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.tasti:hover{
+     
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   border:#2e2e33 solid 0.5px;
+}
+
+
+
+
+@media only screen and (max-width: 575px ){
+
+
+
+
+.titolo h1{
+  
+ 
+  font-size: 20px;
+ 
+}
+
+.tasti{
+     
+
+   width: 80px;
+   height: 45px;
+ 
+   
+}
+
+.tasti{
+     
+
+   font-size: 8px;
+ 
+   
+}
+
+
+footer a{
+ 
+    font-size: 9px;
+   
+}
+   
+footer p{
+ 
+    font-size: 9px;
+   
+}
+  
+
+}
+

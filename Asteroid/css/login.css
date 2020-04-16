@@ -1,0 +1,140 @@
+
+#home4{
+  
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255,.2);
+  background-size: 100% 100%;
+  border:#2e2e33 solid 0.5px;
+}
+
+
+
+
+
+#home4 h1{
+
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: lighter;
+margin-top: 30px;
+font-size: 23px;
+color: white;
+}
+
+
+
+#home4 input{
+
+margin-top: 30px;
+
+}
+
+#home4 p{
+
+margin-top: 30px;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-size: 18px;
+color: white;
+}
+
+
+#home4 .tasti{
+
+
+margin-top: 13px;
+
+}
+
+.menulogin {
+	
+	
+	height: 50px;
+	margin: 0px;
+	width: 100%;
+	background-color: black;
+	font-family: none;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.menulogin ul li{
+	padding-top: 20px;
+	list-style: none;
+	display:inline-block;
+	margin-left: 50px;
+	
+}
+
+
+
+.menulogin ul li a {
+	
+    color: white;
+	padding: 15px;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    
+}
+
+
+@media only screen and (max-width: 575px ){
+
+.menulogin {
+	
+	
+	height: 40px;
+	margin: 0px;
+	width: 100%;
+
+}
+
+.menulogin ul li{
+  padding-top: 10px;
+  
+  margin-left: 20px;
+  
+}
+
+
+.menulogin ul li a {
+	
+    color: white;
+	
+    text-decoration-line: none;
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    
+}
+
+#home4 input{
+
+margin-top: 40px;
+
+}
+
+#home4 h1{
+
+font-size: 13px;
+
+}
+
+#home4 p{
+
+font-size: 9px;
+
+}
+
+
+}
